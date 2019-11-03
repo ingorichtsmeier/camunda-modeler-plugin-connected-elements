@@ -1,5 +1,5 @@
 import ExampleExtensionService from './ExampleExtensionService';
-import IngoPalette from './IngoPalette';
+import ConnectedElementsPalette from './ConnectedElementsPalette';
 
 /**
  * A bpmn-js module, defining all extension services and their dependencies.
@@ -15,7 +15,7 @@ import IngoPalette from './IngoPalette';
  *
  */
 export default {
-  __init__: [ 'pluginService_0vcvfg5', 'ingoPalette' ],
+  __init__: [ 'pluginService_0vcvfg5', 'connectedElementsPalette' ],
   pluginService_0vcvfg5: [ 'type', ExampleExtensionService ],
-  ingoPalette: [ 'type', IngoPalette ]
+  connectedElementsPalette: [ 'type', ConnectedElementsPalette ]
 };
