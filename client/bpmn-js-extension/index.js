@@ -1,4 +1,3 @@
-import ExampleExtensionService from './ExampleExtensionService';
 import ConnectedElementsPalette from './ConnectedElementsPalette';
 
 /**
@@ -15,7 +14,6 @@ import ConnectedElementsPalette from './ConnectedElementsPalette';
  *
  */
 export default {
-  __init__: [ 'pluginService_0vcvfg5', 'connectedElementsPalette' ],
-  pluginService_0vcvfg5: [ 'type', ExampleExtensionService ],
+  __init__: [ 'connectedElementsPalette' ],
   connectedElementsPalette: [ 'type', ConnectedElementsPalette ]
 };
